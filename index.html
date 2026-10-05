@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wanderly — Explore The World</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="#home" class="logo">
+        <i class="fa-solid fa-compass"></i>
+        Wanderly
+    </a>
+
+    <nav id="navbar">
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#experiences">Experiences</a>
+        <a href="#packages">Packages</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <span class="eyebrow">
+            DISCOVER • EXPLORE • EXPERIENCE
+        </span>
+
+        <h1>
+            Explore the
+            <span>World.</span>
+        </h1>
+
+        <p>
+            Discover breathtaking destinations, unforgettable experiences,
+            and places that turn every journey into a story.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#destinations" class="btn primary">
+                Explore Destinations
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#packages" class="btn glass">
+                View Packages
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-floating">
+
+        <i class="fa-solid fa-location-dot"></i>
+
+        <div>
+            <strong>150+</strong>
+            <span>Destinations</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SEARCH -->
+
+<section class="search-section">
+
+    <div class="search-box">
+
+        <div>
+            <i class="fa-solid fa-location-dot"></i>
+
+            <div>
+                <small>DESTINATION</small>
+                <input id="searchInput"
+                       type="text"
+                       placeholder="Where do you want to go?">
+            </div>
+        </div>
+
+        <button id="searchBtn">
+            Search
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- DESTINATIONS -->
+
+<section class="section" id="destinations">
+
+    <div class="heading">
+
+        <span>POPULAR DESTINATIONS</span>
+
+        <h2>Places worth <strong>exploring</strong></h2>
+
+        <p>
+            From peaceful beaches to majestic mountains,
+            find your next unforgettable destination.
+        </p>
+
+    </div>
+
+    <div class="destination-grid" id="destinationGrid">
+
+        <article class="destination-card">
+
+            <div class="destination-image image1">
+
+                <span class="tag">POPULAR</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="destination-info">
+
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Bali, Indonesia
+                </div>
+
+                <h3>Island Escape</h3>
+
+                <p>
+                    Tropical beaches, temples and unforgettable sunsets.
+                </p>
+
+                <div class="card-bottom">
+                    <span><i class="fa-solid fa-star"></i> 4.9</span>
+                    <strong>Explore →</strong>
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="destination-card">
+
+            <div class="destination-image image2">
+
+                <span class="tag">TRENDING</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="destination-info">
+
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Santorini, Greece
+                </div>
+
+                <h3>Blue Horizons</h3>
+
+                <p>
+                    White villages, blue domes and beautiful sea views.
+                </p>
+
+                <div class="card-bottom">
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                    <strong>Explore →</strong>
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="destination-card">
+
+            <div class="destination-image image3">
+
+                <span class="tag">ADVENTURE</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="destination-info">
+
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Swiss Alps, Switzerland
+                </div>
+
+                <h3>Mountain Adventure</h3>
+
+                <p>
+                    Snow-covered peaks and spectacular alpine landscapes.
+                </p>
+
+                <div class="card-bottom">
+                    <span><i class="fa-solid fa-star"></i> 4.9</span>
+                    <strong>Explore →</strong>
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="destination-card">
+
+            <div class="destination-image image4">
+
+                <span class="tag">CULTURE</span>
+
+                <button class="heart">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="destination-info">
+
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Kyoto, Japan
+                </div>
+
+                <h3>Ancient Kyoto</h3>
+
+                <p>
+                    Temples, gardens and centuries of Japanese tradition.
+                </p>
+
+                <div class="card-bottom">
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                    <strong>Explore →</strong>
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- EXPERIENCE -->
+
+<section class="experience" id="experiences">
+
+    <div class="experience-image"></div>
+
+    <div class="experience-content">
+
+        <span>TRAVEL DIFFERENTLY</span>
+
+        <h2>
+            Create memories,
+            <strong>not itineraries.</strong>
+        </h2>
+
+        <p>
+            Travel isn't just about visiting places.
+            It's about meeting people, experiencing cultures,
+            tasting new flavors and collecting stories.
+        </p>
+
+        <div class="experience-list">
+
+            <div>
+                <i class="fa-solid fa-mountain-sun"></i>
+                <span>Unique Experiences</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <span>Picture-Perfect Locations</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-earth-americas"></i>
+                <span>Local Culture</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PACKAGES -->
+
+<section class="section" id="packages">
+
+    <div class="heading">
+
+        <span>TRAVEL PACKAGES</span>
+
+        <h2>Choose your <strong>journey</strong></h2>
+
+    </div>
+
+    <div class="package-grid">
+
+        <div class="package-card">
+
+            <i class="fa-solid fa-umbrella-beach"></i>
+
+            <h3>Beach Escape</h3>
+
+            <p>5 Days / 4 Nights</p>
+
+            <strong>₹39,999</strong>
+
+            <a href="#">View Package →</a>
+
+        </div>
+
+
+        <div class="package-card featured">
+
+            <span class="popular">MOST POPULAR</span>
+
+            <i class="fa-solid fa-mountain"></i>
+
+            <h3>Adventure Trip</h3>
+
+            <p>7 Days / 6 Nights</p>
+
+            <strong>₹59,999</strong>
+
+            <a href="#">View Package →</a>
+
+        </div>
+
+
+        <div class="package-card">
+
+            <i class="fa-solid fa-city"></i>
+
+            <h3>City Explorer</h3>
+
+            <p>4 Days / 3 Nights</p>
+
+            <strong>₹29,999</strong>
+
+            <a href="#">View Package →</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- NEWSLETTER -->
+
+<section class="newsletter">
+
+    <div>
+
+        <span>GET TRAVEL INSPIRATION</span>
+
+        <h2>Your next adventure starts here.</h2>
+
+        <p>
+            Subscribe for destination ideas and travel inspiration.
+        </p>
+
+    </div>
+
+    <form id="newsletterForm">
+
+        <input type="email"
+               placeholder="Your email address"
+               required>
+
+        <button type="submit">
+            Subscribe
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer id="contact">
+
+    <div class="footer-top">
+
+        <div>
+            <a class="logo">
+                <i class="fa-solid fa-compass"></i>
+                Wanderly
+            </a>
+
+            <p>
+                Helping curious travelers discover extraordinary places.
+            </p>
+        </div>
+
+        <div>
+            <h3>Explore</h3>
+            <a href="#destinations">Destinations</a>
+            <a href="#experiences">Experiences</a>
+            <a href="#packages">Packages</a>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <a href="#">hello@wanderly.com</a>
+            <a href="#">+91 98765 43210</a>
+        </div>
+
+        <div>
+            <h3>Follow</h3>
+
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 Wanderly. All Rights Reserved.
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
